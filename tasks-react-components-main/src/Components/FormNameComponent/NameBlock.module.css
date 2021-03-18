@@ -1,0 +1,39 @@
+.NameBlock {
+    margin: 1em;
+}
+
+.NameBlock label {
+    color: #4a4a4a !important;
+}
+
+.NameBlock input{
+    border-radius: 0 !important;
+}
+
+.NameBlock input.error{
+    border: 1px solid #f00 !important;
+}
+
+.NameBlock input:focus {
+    border: 1px solid #66afe9 !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(102,175,233,0.6) !important;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;
+}
+
+.NameBlock button {
+    background-color: #1a8099 !important;
+    color: #fff !important;
+    border-radius: 65px !important;
+}
+
+.NameBlock button:hover {
+    background-color: #3ebede !important;
+}
+
+.NameBlock button:focus {
+    background-color: #0e5061 !important;
+}
+
+.NameBlock .error {
+    color: red;
+}
